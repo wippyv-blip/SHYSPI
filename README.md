@@ -60,11 +60,11 @@ The engine uses custom optimization techniques developed as part of the SHYSPI p
 
 SHYSPI Engine has demonstrated promising performance during internal testing.
 
-### Qwen3.5-35B-A3B — Local Inference
+### Qwen3.6-35B-A3B-MTP-UD-Q4_K_M— Local Inference
 
 | Component | Configuration |
 |---|---|
-| Model | Qwen3.5-35B-A3B |
+| Model | Qwen3.6-35B-A3B-MTP-UD-Q4_K_M |
 | Architecture | Mixture of Experts (MoE) |
 | Quantization | Q4_K_M |
 | GPU | NVIDIA GeForce RTX 5070 |
@@ -76,7 +76,7 @@ SHYSPI Engine has demonstrated promising performance during internal testing.
 
 ### Performance Highlight
 
-**Up to approximately 63.5 tokens per second with Qwen3.5-35B-A3B Q4_K_M on an NVIDIA RTX 5070 12 GB GPU during internal testing.**
+**Up to approximately 63.5 tokens per second with Qwen3.6-35B-A3B-MTP-UD-Q4_K_M on an NVIDIA RTX 5070 12 GB GPU during internal testing.**
 
 These results demonstrate the potential of optimized inference strategies for large MoE models on consumer hardware.
 
